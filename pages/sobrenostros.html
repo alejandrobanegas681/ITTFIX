@@ -3,22 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>ITTFIX</title>
 </head>
     <body>
-        <header>
-            <h1>ITTFIX</h1>
-              <nav>
-                <ul>
-                  <li><a href="../INDEX.HTML">Inicio</a></li>
-                  <li><a href="#">Sobre nostros</a></li>
-                  <li><a href="./productos.html">Productos</a></li>
-                  <li><a href="./servicios.html">Servicios</a></li>
-                  <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-              </nav>
-          </header>
+      <header>
+        <h1 style="background-color: black;">ITTFIX</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.HTML">INICIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contactos</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="buscar">
+                <button type="button" class="btn btn-outline-primary">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
         <h2>Sobre Nosotros</h2>
         <section class="sec1somos">
             <div class="div1somos">
@@ -35,5 +55,6 @@
           Alejandro Banegas
         </p>
       </footer>
+      <script src="../bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
